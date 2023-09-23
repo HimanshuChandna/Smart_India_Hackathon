@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+/* sign in window for the shipping website */
+
+.sign-in-window{
+
+  margin:18.75rem;
+  padding:0rem 7rem 7rem 7rem;
+  border:1px solid black;
+  border-radius:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  box-shadow:0rem 0rem .5rem grey;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+
+  width:18rem;
+  height:auto;
+  padding:2rem 2rem 1rem 2rem;
+  /* border:1px solid black; */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shipping-submit-btn{
+
+  /* border:1px solid black; */
+  margin:.5rem;
+  display:flex;
+  justify-content:center;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+#shipping-submit-btn{
 
-.App-link {
-  color: #61dafb;
-}
+  width:100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
