@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Shipping_website = () => {
+export const ShippingWebsite = () => {
   return (
     <div>
 

@@ -1,11 +1,12 @@
 import './App.css';
-import { Shipping_website } from './components/Shipping_website';
+import { LandingPage } from './components/LandingPage';
 
 function App() {
   return (
     <>
     {/* // You need to tag your components here */}
-    <Shipping_website></Shipping_website>
+    <LandingPage></LandingPage>
+    {/* <ShippingWebsite></ShippingWebsite> */}
     </>
   );
 }
