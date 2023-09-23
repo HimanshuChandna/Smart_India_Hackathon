@@ -1,12 +1,14 @@
 import './App.css';
 import { LandingPage } from './components/LandingPage';
-import LoginSignup from './components/login-signup/LoginSignup';
+import { ShippingLogin } from './components/ShippingLogin';
 
 function App() {
   return (
-    <div>
-      <LoginSignup/>
-    </div>
+    <>
+    {/* // You need to tag your components here */}
+    <LandingPage></LandingPage>
+    <ShippingLogin></ShippingLogin>
+    </>
   );
 }
 
